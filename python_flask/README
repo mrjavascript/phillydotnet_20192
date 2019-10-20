@@ -1,0 +1,11 @@
+#
+#   To run in docker
+#
+
+(1)
+
+docker build -t dockerdemo_py:latest .
+
+(2)
+
+docker run -d -p 5000:5000 dockerdemo_py:latest
